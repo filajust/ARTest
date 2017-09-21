@@ -27,7 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8862BF891F7460A900948CC2 /* JJTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8862BF891F7460A900948CC2 /* ARTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8862BF8C1F7460A900948CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8862BF8E1F7460A900948CC2 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		8862BF901F7460A900948CC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		8862BF951F7460A900948CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8862BF981F7460A900948CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8862BF9A1F7460A900948CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8862BF9F1F7460A900948CC2 /* JJTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8862BF9F1F7460A900948CC2 /* ARTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8862BFA31F7460A900948CC2 /* JJTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJTestTests.swift; sourceTree = "<group>"; };
 		8862BFA51F7460A900948CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,8 +70,8 @@
 		8862BF8A1F7460A900948CC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8862BF891F7460A900948CC2 /* JJTest.app */,
-				8862BF9F1F7460A900948CC2 /* JJTestTests.xctest */,
+				8862BF891F7460A900948CC2 /* ARTest.app */,
+				8862BF9F1F7460A900948CC2 /* ARTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8862BF881F7460A900948CC2 /* JJTest */ = {
+		8862BF881F7460A900948CC2 /* ARTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8862BFA81F7460A900948CC2 /* Build configuration list for PBXNativeTarget "JJTest" */;
+			buildConfigurationList = 8862BFA81F7460A900948CC2 /* Build configuration list for PBXNativeTarget "ARTest" */;
 			buildPhases = (
 				8862BF851F7460A900948CC2 /* Sources */,
 				8862BF861F7460A900948CC2 /* Frameworks */,
@@ -114,14 +114,14 @@
 			);
 			dependencies = (
 			);
-			name = JJTest;
+			name = ARTest;
 			productName = JJTest;
-			productReference = 8862BF891F7460A900948CC2 /* JJTest.app */;
+			productReference = 8862BF891F7460A900948CC2 /* ARTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8862BF9E1F7460A900948CC2 /* JJTestTests */ = {
+		8862BF9E1F7460A900948CC2 /* ARTestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8862BFAB1F7460A900948CC2 /* Build configuration list for PBXNativeTarget "JJTestTests" */;
+			buildConfigurationList = 8862BFAB1F7460A900948CC2 /* Build configuration list for PBXNativeTarget "ARTestTests" */;
 			buildPhases = (
 				8862BF9B1F7460A900948CC2 /* Sources */,
 				8862BF9C1F7460A900948CC2 /* Frameworks */,
@@ -132,9 +132,9 @@
 			dependencies = (
 				8862BFA11F7460A900948CC2 /* PBXTargetDependency */,
 			);
-			name = JJTestTests;
+			name = ARTestTests;
 			productName = JJTestTests;
-			productReference = 8862BF9F1F7460A900948CC2 /* JJTestTests.xctest */;
+			productReference = 8862BF9F1F7460A900948CC2 /* ARTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8862BF841F7460A900948CC2 /* Build configuration list for PBXProject "JJTest" */;
+			buildConfigurationList = 8862BF841F7460A900948CC2 /* Build configuration list for PBXProject "ARTest" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -171,8 +171,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8862BF881F7460A900948CC2 /* JJTest */,
-				8862BF9E1F7460A900948CC2 /* JJTestTests */,
+				8862BF881F7460A900948CC2 /* ARTest */,
+				8862BF9E1F7460A900948CC2 /* ARTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,7 +221,7 @@
 /* Begin PBXTargetDependency section */
 		8862BFA11F7460A900948CC2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8862BF881F7460A900948CC2 /* JJTest */;
+			target = 8862BF881F7460A900948CC2 /* ARTest */;
 			targetProxy = 8862BFA01F7460A900948CC2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -358,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JJTAJ5H65;
 				INFOPLIST_FILE = JJTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ringling.JJTest;
@@ -372,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JJTAJ5H65;
 				INFOPLIST_FILE = JJTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ringling.JJTest;
@@ -393,7 +395,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJTest.app/JJTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARTest.app/ARTest";
 			};
 			name = Debug;
 		};
@@ -409,14 +411,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJTest.app/JJTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARTest.app/ARTest";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8862BF841F7460A900948CC2 /* Build configuration list for PBXProject "JJTest" */ = {
+		8862BF841F7460A900948CC2 /* Build configuration list for PBXProject "ARTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8862BFA61F7460A900948CC2 /* Debug */,
@@ -425,7 +427,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8862BFA81F7460A900948CC2 /* Build configuration list for PBXNativeTarget "JJTest" */ = {
+		8862BFA81F7460A900948CC2 /* Build configuration list for PBXNativeTarget "ARTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8862BFA91F7460A900948CC2 /* Debug */,
@@ -434,7 +436,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8862BFAB1F7460A900948CC2 /* Build configuration list for PBXNativeTarget "JJTestTests" */ = {
+		8862BFAB1F7460A900948CC2 /* Build configuration list for PBXNativeTarget "ARTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8862BFAC1F7460A900948CC2 /* Debug */,
